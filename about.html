@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <a href="#" class="logo">
+                    <div class="logo__img">
+                        <img src="/images/logo.svg" alt="">
+                    </div>
+                    <div class="logo__text">
+                        Рекламно-производственная
+                        компания
+                    </div>
+                </a>
+                <div class="header__box">
+                    <ul class="info-list">
+                        <li class="info-list__item">
+                            <a href="#" class="info-list__link">
+                                <div class="info-list__link-img">
+                                    <img src="/images/icon/map.svg" alt="">
+                                </div>
+                                <div class="info-list__link-box">
+                                    <div class="info-list__link-title">Адрес</div>
+                                    <div class="info-list__link-text">Кызыл, Рабочая, 208</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="info-list__item">
+                            <a href="#" class="info-list__link">
+                                <div class="info-list__link-img">
+                                    <img src="/images/icon/mail.svg" alt="">
+                                </div>
+                                <div class="info-list__link-box">
+                                    <div class="info-list__link-title">Наша почта</div>
+                                    <div class="info-list__link-text">info@gorodok17.ru</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="info-list__item">
+                            <a href="#" class="info-list__link">
+                                <div class="info-list__link-img">
+                                    <img src="/images/icon/tel.svg" alt="">
+                                </div>
+                                <div class="info-list__link-box">
+                                    <div class="info-list__link-title">Наши телефоны</div>
+                                    <div class="info-list__link-text addres-select">+8 (39422) 2 19 94</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="mob-menu ">
+                    <li class="mob-menu__item">
+                        <a href="index.html" class="mob-menu__link">Главная</a>
+                    </li>
+                    <li class="mob-menu__item">
+                        <a href="about.html" class="mob-menu__link">О компании</a>
+                    </li>
+                    <li class="mob-menu__item">
+                        <a href="catalog.html" class="mob-menu__link">Каталог</a>
+                    </li>
+                    <li class="mob-menu__item">
+                        <a href="servises.html" class="mob-menu__link">Прайс</a>
+                    </li>
+                    <li class="mob-menu__item">
+                        <a href="contact.html" class="mob-menu__link">Контакты</a>
+                    <li class="mob-menu__item">
+                        <a href="#" class="mob-menu__link">
+                            <div class="mob-menu__img">
+                                <img src="/images/icon/map.svg" alt="">
+                            </div>
+                            <div class="mob-menu__box">
+                                <div class="mob-menu__text">Кызыл, Рабочая, 208</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mob-menu__item">
+                        <a href="#" class="mob-menu__link">
+                            <div class="mob-menu__img">
+                                <img src="/images/icon/mail.svg" alt="">
+                            </div>
+                            <div class="mob-menu__box">
+                                <div class="mob-menu__text">info@gorodok17.ru</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mob-menu__item">
+                        <a href="#" class="mob-menu__link">
+                            <div class="mob-menu__img">
+                                <img src="/images/icon/tel.svg" alt="">
+                            </div>
+                            <div class="mob-menu__box">
+                                <div class="mob-menu__text addres-select">+8 (39422) 2 19 94</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link"><svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.11845 3.71292C7.14251 3.6898 7.25502 3.61427 7.69686 3.61427L9.1455 3.61382C9.61677 3.61382 10 3.28743 10 2.8862V0.730591C10 0.330048 9.61731 0.00366211 9.14684 0.00297545L6.99505 0C5.66699 0 4.538 0.372963 3.73014 1.07872C2.92591 1.78127 2.50074 2.76203 2.50074 3.91479V5.0774H0.854639C0.383364 5.0774 0 5.40379 0 5.80502V8.12656C0 8.52779 0.383364 8.85418 0.854639 8.85418H2.50074V14.2724C2.50074 14.6736 2.8841 15 3.35538 15H6.17684C6.64812 15 7.03148 14.6736 7.03148 14.2724V8.85429H9.04361C9.51488 8.85429 9.89811 8.52779 9.89811 8.12679L9.89919 5.80513C9.89919 5.54157 9.73076 5.2977 9.4595 5.16872C9.33382 5.10899 9.18757 5.0774 9.03675 5.0774H7.03148V4.1589C7.03148 3.85952 7.0788 3.75114 7.11845 3.71292Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 4.375C5.7769 4.375 4.375 5.7769 4.375 7.5C4.375 9.2231 5.7769 10.625 7.5 10.625C9.2231 10.625 10.625 9.2231 10.625 7.5C10.625 5.7769 9.22322 4.375 7.5 4.375Z" fill="white" />
+                                <path
+                                    d="M13.4886 1.51142C12.5139 0.536728 11.223 0 9.85359 0H5.14641C3.77701 0 2.486 0.536728 1.51142 1.51142C0.536728 2.486 0 3.77701 0 5.14641V9.85348C0 11.223 0.536728 12.514 1.51142 13.4886C2.486 14.4633 3.77701 15 5.14641 15H9.85359C11.223 15 12.514 14.4633 13.4886 13.4886C14.4632 12.514 15 11.223 15 9.85348V5.14641C15 3.77701 14.4632 2.486 13.4886 1.51142ZM7.5 11.4697C5.31109 11.4697 3.53027 9.68891 3.53027 7.5C3.53027 5.31109 5.31109 3.53027 7.5 3.53027C9.68891 3.53027 11.4697 5.31109 11.4697 7.5C11.4697 9.68891 9.68891 11.4697 7.5 11.4697ZM11.8977 3.72379C11.816 3.8055 11.7026 3.85242 11.587 3.85242C11.4713 3.85242 11.3581 3.8055 11.2764 3.72379C11.1944 3.64197 11.1476 3.52867 11.1476 3.41297C11.1476 3.29727 11.1944 3.18386 11.2764 3.10215C11.3581 3.02032 11.4712 2.97352 11.587 2.97352C11.7026 2.97352 11.816 3.02032 11.8977 3.10215C11.9796 3.18386 12.0265 3.29727 12.0265 3.41297C12.0265 3.52856 11.9796 3.64197 11.8977 3.72379Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link"><svg width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.1069 9.81131C19.0551 9.72455 18.7346 9.02805 17.1922 7.5965C15.5775 6.09746 15.7944 6.34087 17.7392 3.74889C18.9238 2.17033 19.3973 1.20632 19.2491 0.794205C19.1081 0.401371 18.2369 0.505002 18.2369 0.505002L15.3401 0.521872C15.3401 0.521872 15.1256 0.492952 14.9653 0.588148C14.8099 0.682139 14.7098 0.899041 14.7098 0.899041C14.7098 0.899041 14.2507 2.12092 13.6386 3.15964C12.348 5.35156 11.8311 5.46724 11.6202 5.33107C11.1298 5.01416 11.2527 4.05617 11.2527 3.37655C11.2527 1.25211 11.5744 0.366426 10.6249 0.137473C10.3091 0.0615577 10.0778 0.0109472 9.27163 0.0025121C8.23773 -0.008333 7.36169 0.00612713 6.86643 0.248334C6.53625 0.409806 6.28199 0.770105 6.43744 0.79059C6.62904 0.815895 7.06284 0.907476 7.293 1.22078C7.59064 1.62446 7.57979 2.53304 7.57979 2.53304C7.57979 2.53304 7.7509 5.03344 7.18093 5.34433C6.78931 5.55762 6.25307 5.12261 5.10229 3.13313C4.51304 2.1149 4.06718 0.988212 4.06718 0.988212C4.06718 0.988212 3.98163 0.77854 3.82859 0.666474C3.64302 0.530307 3.38274 0.486927 3.38274 0.486927L0.62808 0.503797C0.62808 0.503797 0.214761 0.515847 0.0629296 0.695394C-0.0720317 0.855661 0.0520845 1.18583 0.0520845 1.18583C0.0520845 1.18583 2.20906 6.23122 4.65041 8.775C6.89053 11.1067 9.4331 10.9537 9.4331 10.9537H10.5851C10.5851 10.9537 10.9333 10.9151 11.1105 10.7235C11.2744 10.5476 11.2683 10.2174 11.2683 10.2174C11.2683 10.2174 11.2454 8.67137 11.9636 8.44362C12.671 8.21949 13.5795 9.93783 14.5424 10.5994C15.2702 11.0995 15.8233 10.9898 15.8233 10.9898L18.3984 10.9537C18.3984 10.9537 19.7456 10.8705 19.1069 9.81131Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link"><svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.34636 12.9999C11.7618 12.9999 15.2701 7.99887 15.2701 3.66234C15.2701 3.52031 15.267 3.37886 15.2602 3.23819C15.9411 2.7749 16.533 2.19678 17 1.53873C16.3751 1.80021 15.7024 1.976 14.9971 2.05553C15.7171 1.64908 16.27 1.00639 16.5307 0.24025C15.8568 0.616178 15.1105 0.889296 14.316 1.03681C13.6796 0.398916 12.7733 0 11.77 0C9.84397 0 8.28194 1.46967 8.28194 3.28133C8.28194 3.53899 8.31261 3.78941 8.37239 4.02966C5.47361 3.89242 2.90304 2.5866 1.18299 0.60082C0.883575 1.08572 0.710789 1.64917 0.710789 2.25039C0.710789 3.38883 1.32656 4.39415 2.26284 4.98205C1.69063 4.96552 1.15315 4.81771 0.683239 4.57169C0.68272 4.58548 0.68272 4.59889 0.68272 4.61356C0.68272 6.20296 1.88494 7.53001 3.48107 7.83072C3.1879 7.90575 2.87944 7.94615 2.56132 7.94615C2.33697 7.94615 2.11823 7.92541 1.90573 7.88696C2.34975 9.19093 3.63743 10.1398 5.16401 10.1664C3.97021 11.0468 2.4664 11.5712 0.832009 11.5712C0.550896 11.5712 0.273005 11.5561 0 11.5257C1.54363 12.4567 3.37659 13 5.34646 13"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+                <button class="header-btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
+            <div class="header-bottom">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="index.html" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html" class="menu__link">О компании</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="catalog.html" class="menu__link">Каталог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="portfolio1.html" class="menu__link">Прайс</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact.html" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <span class="breadcrumbs-link  current"> О компании <span>
+                    </li>
+                </ul>
+            </div>
+            <div class="info__img">
+                <img src="/images/about-bg.jpg" alt="">
+            </div>
+            <div class="logo-opacity">
+                <img src="/images/icon/logo-opacity.svg" alt="">
+            </div>
+            <div class="container">
+                <h3 class="title descr-title">о компании</h3>
+                <div class="info__wrapper descr__wrapper">
+                    <div class="info__content">
+
+                        <div class="info__inner__text">
+                            <p> С 2009 по 2011 годы резидент «Бизнес-инкубатора Республики Тыва.</p>
+                            <p>Грамотная стратегия на рынке и серьезное отношение к делу позволили за эти 3 года
+                                нарастить производственную и клиентскую базу и выйти на уровень, сопоставимый со
+                                старожилами рекламного рынка, а в плане применения передовых технологий, в частности,
+                                светодиодов, и опередить их.
+                            </p>
+
+                            <p>Испробовав светодиоды всевозможных параметров и производителей, методом проб и ошибок
+                                компания получила большой опыт в этой сфере и подтверждение этому десятки объектов
+                                украсивших улицы города Кызыла и населенных пунктов Тувы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div data-fancybox href="https://youtu.be/AphZadcLTVU" class="advantages__img advantages__video">
+                            <img src="/images/advatages-1.jpg" alt="">
+                            <div class="advantages__play">
+                                <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M29.4434 52.2457L49.8605 37.5L29.4434 22.7543V52.2457Z" fill="white" />
+                                    <path
+                                        d="M37.5 0C16.8224 0 0 16.8224 0 37.5C0 58.1776 16.8224 75 37.5 75C58.1776 75 75 58.1776 75 37.5C75 16.8224 58.1776 0 37.5 0ZM54.8997 39.2814L28.5325 58.3244C28.1509 58.5999 27.6995 58.7404 27.2458 58.7404C26.9041 58.7404 26.5613 58.6608 26.2458 58.4994C25.5111 58.1237 25.0488 57.3681 25.0488 56.543V18.457C25.0488 17.6319 25.5111 16.8763 26.2458 16.5007C26.9804 16.1251 27.8635 16.1927 28.5325 16.6758L54.8997 35.7188C55.4717 36.1318 55.8105 36.7945 55.8105 37.5C55.8105 38.2055 55.4717 38.8683 54.8997 39.2814Z"
+                                        fill="white" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="info__inner__title">Рекламно-производственная компания <span>"ГородОК"</span>
+                            начала свою деятельность в конце 2008 года.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages page-section" style="background-image: url(/images/advantages-bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+            <div class=" container container-advantages">
+                <h3 class="advantages-title title">
+                    наши преимущества
+                </h3>
+                <div class="advantages__inner">
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="/images/advatages-1.jpg" alt="">
+                            <div class="advantages__play">
+                                <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M29.4434 52.2457L49.8605 37.5L29.4434 22.7543V52.2457Z" fill="white" />
+                                    <path
+                                        d="M37.5 0C16.8224 0 0 16.8224 0 37.5C0 58.1776 16.8224 75 37.5 75C58.1776 75 75 58.1776 75 37.5C75 16.8224 58.1776 0 37.5 0ZM54.8997 39.2814L28.5325 58.3244C28.1509 58.5999 27.6995 58.7404 27.2458 58.7404C26.9041 58.7404 26.5613 58.6608 26.2458 58.4994C25.5111 58.1237 25.0488 57.3681 25.0488 56.543V18.457C25.0488 17.6319 25.5111 16.8763 26.2458 16.5007C26.9804 16.1251 27.8635 16.1927 28.5325 16.6758L54.8997 35.7188C55.4717 36.1318 55.8105 36.7945 55.8105 37.5C55.8105 38.2055 55.4717 38.8683 54.8997 39.2814Z"
+                                        fill="white" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="advantages__descr">рекламно
+                            производственный цех</div>
+                        <div class="advantages__num">более 300 кв.м</div>
+                    </div>
+
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="/images/advatages-2.jpg" alt="">
+                        </div>
+                        <div class="advantages__descr">парк оборудования
+                            для производства рекламы</div>
+                        <div class="advantages__num">10 единиц - 10 млн.руб.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="circle" style="background-image: url('/images/circle-bg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+            <div class="servises-ellipse">
+                <img src="/images/icon/ellipse.svg" alt="">
+            </div>
+            <div class="container">
+                <div class="circle__wrapper ">
+                    <div class="ellipse">
+                        <div class="ellipse__inner">
+                            <!-- <div class="ellipse__text-hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div> -->
+                            <h5 class="ellipse__text">наши рекорды</h5>
+                        </div>
+                    </div>
+                    <div class="circle__item">
+                        <div class="circle__title ">баннера</div>
+                        <div class="circle__text ">
+                            <span class="counter">150 000</span><span>кв.м </span>
+                        </div>
+                    </div>
+                    <div class="circle__item">
+                        <div class="circle__title circle__title--padding">на одном объекте</div>
+                        <div class="circle__text circle__text--padding"><span class="counter">2,5</span><span>км </span></div>
+                    </div>
+                    <div class="circle__item">
+                        <div class="circle__title ">вывески </div>
+                        <div class="circle__text "><span class="counter">15 000</span><span>пог.м </span></div>
+                    </div>
+                    <div class="circle__item">
+                        <div class="circle__title circle__title--padding">для украшения города</div>
+                        <div class="circle__text circle__text--padding"><span class="counter">400</span><span>км</span></div>
+                    </div>
+
+                </div>
+
+
+                <div class="banner">
+                    <div class="banner-inner">
+                        <div class="banner-left" style="background-image: url(/images/banner-1.png); background-repeat: no-repeat; background-size:cover">
+                            <div class="banner-left__title">
+                                запросить расчеты
+                            </div>
+                            <div class="banner-left__arrow">
+                                <img src="/images/banner-arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="banner-btn">
+                            <a href="" class="btn banner-btn">Оставить заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="works page-section" style="background-color: #17264C;">
+            <div class="works-blur" style="background-image: url('/images/works-bg-blur.jpg');"></div>
+            <div class="works-logo__img">
+                <img src="/images/icon/woks-logo.svg" alt="">
+            </div>
+            <div class=" works-line__top ">
+                <img src="/images/icon/line-wr.png" alt="">
+            </div>
+            <div class="works-line__bottom">
+                <img src="/images/icon/line-wr.png" alt="">
+            </div>
+            <div class="container">
+                <div class="works-title title">как мы работаем</div>
+                <div class="works-items">
+                    <div class="border">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1392 685" width="1392" height="685">
+                            <path stroke="white" stroke-dasharray="10,10" d="M 172 1.10938 C 178.561 1.10869 615.794 1.58881 1225.49 1.60144" />
+                            <path stroke="white" stroke-dasharray="10,10"
+                                d="M 1233.88 1.00105 C 1254.86 0.920126 1277.39 5.5243 1296.7 14.5319 C 1316.02 23.5395 1333.47 36.7635 1347.98 53.4005 C 1362.5 70.0375 1373.79 89.7403 1381.15 111.312 C 1388.52 132.883 1391.81 155.873 1390.83 178.885 C 1389.85 201.896 1384.62 224.449 1375.46 245.174 C 1366.29 265.898 1353.38 284.361 1337.52 299.44 C 1321.65 314.52 1303.16 325.902 1283.16 332.895 C 1263.16 339.888 1227.02 341.415 1222 340.912" />
+                            <path stroke="white" stroke-dasharray="10,10"
+                                d="M 178 340.5 C 151.813 340.5 125.982 346.568 102.533 358.227 C 79.0845 369.887 58.6565 386.821 42.8515 407.701 C 27.0465 428.581 16.2945 452.839 11.4391 478.572 C 6.58355 504.306 7.75662 530.814 14.8662 556.018" />
+                            <path stroke="white" stroke-dasharray="10,10" d="M 173 340.109 C 179.561 340.109 616.794 340.589 1226.49 340.601" />
+                        </svg>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item__img">
+                            <div class="works-item__logo">
+                                <svg width="145" height="143" viewBox="0 0 145 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                        <ellipse cx="72.0502" cy="67.2241" rx="52.0502" ry="51.2241" fill="#122042" />
+                                    </g>
+                                    <g clip-path="url(#clip0)">
+                                        <path d="M78.6802 48.1133C78.6802 47.4985 78.1817 47 77.5669 47H66.4341C65.8193 47 65.3208 47.4985 65.3208 48.1133V49.375H78.6802V48.1133Z" fill="white" />
+                                        <path
+                                            d="M55.0996 62.1509C54.7643 62.3521 54.5591 62.7144 54.5591 63.1055V64.961H57.5278C58.1427 64.961 58.6411 65.4594 58.6411 66.0742C58.6411 66.6891 58.1427 67.1875 57.5278 67.1875H54.5591V69.4141H57.5278C58.1427 69.4141 58.6411 69.9125 58.6411 70.5274C58.6411 71.1422 58.1427 71.6407 57.5278 71.6407H54.5591V73.8672H57.5278C58.1427 73.8672 58.6411 74.3657 58.6411 74.9805C58.6411 75.5953 58.1427 76.0938 57.5278 76.0938H54.5591V78.3203H57.5278C58.1427 78.3203 58.6411 78.8188 58.6411 79.4336C58.6411 80.0484 58.1427 80.5469 57.5278 80.5469H54.5591V82.7735H54.1138C53.4989 82.7735 53.0005 83.2719 53.0005 83.8867C53.0005 84.5016 53.4989 85 54.1138 85H60.8677V58.69L55.0996 62.1509Z"
+                                            fill="white" />
+                                        <path
+                                            d="M79.7935 51.6016H64.2075C63.5927 51.6016 63.0942 52.1 63.0942 52.7148V85H80.9067V52.7148C80.9067 52.1 80.4083 51.6016 79.7935 51.6016ZM68.6606 79.4336C68.6606 80.0484 68.1622 80.5469 67.5474 80.5469C66.9325 80.5469 66.4341 80.0484 66.4341 79.4336V57.168C66.4341 56.5531 66.9325 56.0547 67.5474 56.0547C68.1622 56.0547 68.6606 56.5531 68.6606 57.168V79.4336ZM73.1138 79.4336C73.1138 80.0484 72.6153 80.5469 72.0005 80.5469C71.3857 80.5469 70.8872 80.0484 70.8872 79.4336V57.168C70.8872 56.5531 71.3857 56.0547 72.0005 56.0547C72.6153 56.0547 73.1138 56.5531 73.1138 57.168V79.4336ZM77.5669 79.4336C77.5669 80.0484 77.0684 80.5469 76.4536 80.5469C75.8388 80.5469 75.3403 80.0484 75.3403 79.4336V57.168C75.3403 56.5531 75.8388 56.0547 76.4536 56.0547C77.0684 56.0547 77.5669 56.5531 77.5669 57.168V79.4336Z"
+                                            fill="white" />
+                                        <path
+                                            d="M89.8872 82.7735H89.4419V80.5469H86.4731C85.8583 80.5469 85.3599 80.0484 85.3599 79.4336C85.3599 78.8188 85.8583 78.3203 86.4731 78.3203H89.4419V76.0938H86.4731C85.8583 76.0938 85.3599 75.5953 85.3599 74.9805C85.3599 74.3657 85.8583 73.8672 86.4731 73.8672H89.4419V71.6407H86.4731C85.8583 71.6407 85.3599 71.1422 85.3599 70.5274C85.3599 69.9125 85.8583 69.4141 86.4731 69.4141H89.4419V67.1875H86.4731C85.8583 67.1875 85.3599 66.6891 85.3599 66.0742C85.3599 65.4594 85.8583 64.961 86.4731 64.961H89.4419V63.1055C89.4419 62.7144 89.2367 62.3521 88.9014 62.1509L83.1333 58.69V85H89.8872C90.502 85 91.0005 84.5016 91.0005 83.8867C91.0005 83.2719 90.502 82.7735 89.8872 82.7735Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_d" x="0" y="0" width="144.1" height="142.448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy="4" />
+                                            <feGaussianBlur stdDeviation="10" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                        </filter>
+                                        <clipPath id="clip0">
+                                            <rect width="38" height="38" fill="white" transform="translate(53.0005 47)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <img src="/images/works-item-1.jpg" alt="">
+                        </div>
+                        <div class="works-item__text">
+                            <span>Обращение в компанию</span>
+                        </div>
+                    </div>
+
+                    <div class="works-item">
+                        <div class="works-item__img">
+                            <div class="works-item__logo">
+                                <svg width="145" height="143" viewBox="0 0 145 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                        <ellipse cx="72.0502" cy="67.2241" rx="52.0502" ry="51.2241" fill="#122042" />
+                                    </g>
+                                    <path
+                                        d="M91.0753 81.4139V87H53.0005V81.4127C53.0005 78.7748 55.2747 75.5274 58.0528 74.2078L64.2347 71.2708L68.5261 80.2135L70.7233 74.2563C71.1565 74.3382 71.5861 74.4474 72.0379 74.4474C72.4898 74.4474 72.918 74.3382 73.3525 74.2563L75.438 79.9206L79.6449 71.1715L86.0267 74.2066C88.8012 75.5262 91.0753 78.7735 91.0753 81.4139ZM58.6164 61.8353V57.8009C58.6164 57.1169 58.9726 56.5173 59.5102 56.1722C60.2314 49.8934 65.5717 45 72.0404 45C78.5091 45 83.8506 49.8934 84.5731 56.1722C85.1094 56.5173 85.4656 57.1169 85.4656 57.8009V61.8353C85.4656 62.9065 84.5979 63.7755 83.5254 63.7755C82.4529 63.7755 81.5852 62.9065 81.5852 61.8353V60.9874C80.535 66.2694 76.6682 71.1727 72.0416 71.1727C67.4151 71.1727 63.5483 66.2694 62.4981 60.9874V61.8353C62.4981 62.7042 61.9209 63.4316 61.1326 63.6787C61.9047 66.3066 63.6178 68.5771 65.9838 70.0667C66.4208 69.9227 66.9719 69.95 67.507 70.2281C68.366 70.6749 68.8042 71.5439 68.4789 72.1646C68.1549 72.7852 67.1966 72.9243 66.3326 72.4761C65.702 72.1472 65.3023 71.5948 65.2601 71.0784C62.5502 69.3454 60.6286 66.6927 59.8354 63.6327C59.1229 63.3472 58.6164 62.6521 58.6164 61.8353ZM60.8322 55.7191C60.8905 55.7228 60.9464 55.7241 61.0023 55.7452C61.1425 55.7973 61.2443 55.8979 61.3151 56.0158C61.7359 56.1945 62.0711 56.521 62.2771 56.9257C62.8494 51.5618 66.9955 48.7241 72.0379 48.7241C77.0803 48.7241 81.2264 51.5618 81.7987 56.9257C82.083 56.3683 82.6229 55.9699 83.2697 55.8867C82.4305 50.4334 77.7208 46.2401 72.0379 46.2401C66.4133 46.2414 61.7409 50.349 60.8322 55.7191Z"
+                                        fill="white" />
+                                    <defs>
+                                        <filter id="filter0_d" x="0" y="0" width="144.1" height="142.448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy="4" />
+                                            <feGaussianBlur stdDeviation="10" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <img src="/images/works-item-2.jpg" alt="">
+                        </div>
+                        <div class="works-item__text">
+                            <span>Обращение в компанию щение в компанию</span>
+                        </div>
+                    </div>
+
+                    <div class="works-item">
+                        <div class="works-item__img">
+                            <div class="works-item__logo">
+                                <svg width="145" height="143" viewBox="0 0 145 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                        <ellipse cx="72.0498" cy="67.2241" rx="52.0502" ry="51.2241" fill="#122042" />
+                                    </g>
+                                    <path
+                                        d="M67.9578 80.25H70.6672L70.4281 79.2937C70.3484 78.975 70.0297 78.6562 69.6313 78.6562H68.5156C67.2406 78.6562 66.0453 78.0187 65.2484 76.9828L62.7781 73.5562L59.75 74.8312L66.6031 79.7718C66.9219 80.0906 67.4797 80.25 67.9578 80.25Z"
+                                        fill="white" />
+                                    <path d="M79.6717 55.5469H65.3279C64.292 55.5469 63.4154 56.1844 63.0967 57.1406H81.9029C81.5842 56.1844 80.7076 55.5469 79.6717 55.5469Z" fill="white" />
+                                    <path
+                                        d="M79.6717 53.9531C80.4686 53.9531 81.2654 54.1922 81.9029 54.6703C81.2654 51.3234 78.9545 48.4547 75.6873 47.3391V52.3594H74.0936V45.9844C74.0936 45.5062 73.7748 45.1875 73.2967 45.1875H71.7029C71.2248 45.1875 70.9061 45.5062 70.9061 45.9844V52.3594H69.3123V47.3391C66.0451 48.4547 63.6545 51.2437 63.0967 54.6703C63.7342 54.1922 64.5311 53.9531 65.3279 53.9531H79.6717Z"
+                                        fill="white" />
+                                    <path
+                                        d="M76.4049 78.6563H75.2893C74.8908 78.6563 74.5721 78.8953 74.4924 79.2938L74.333 80.25H77.0424C77.5205 80.25 78.0783 80.0907 78.4768 79.7719L83.6565 75.9469V73.9547L82.2221 73.3969L79.6721 76.9828C78.9549 78.0188 77.7596 78.6563 76.4049 78.6563Z"
+                                        fill="white" />
+                                    <path d="M88.4375 71.9625C88.4375 71.6437 87.8 71.1656 86.8438 71.1656C85.8875 71.1656 85.25 71.6437 85.25 71.9625V79.2937L88.4375 74.8312V71.9625Z" fill="white" />
+                                    <path
+                                        d="M64.5313 63.9937V64.4719C64.5313 66.5437 65.6469 68.3766 67.4 69.3328L69.7906 70.6078C71.4641 71.4844 73.4563 71.4844 75.1297 70.6078L77.5203 69.3328C79.2734 68.3766 80.3891 66.4641 80.3891 64.4719V63.9937L81.8234 63.1172C81.9031 63.0375 81.9828 62.9578 81.9828 62.7984V60.5672C81.9828 60.4078 81.8234 60.2484 81.5844 60.2484C81.5047 60.2484 81.425 60.2484 81.425 60.3281L80.4688 61.4437V58.7344H64.5313V61.4437L63.4953 60.4078C63.3359 60.2484 63.0969 60.3281 63.0172 60.4078C62.9375 60.4875 62.9375 60.5672 62.9375 60.5672V62.7984C62.9375 62.8781 63.0172 63.0375 63.0969 63.1172L64.5313 63.9937Z"
+                                        fill="white" />
+                                    <path d="M88.4376 86.625V82.8797L85.9673 86.625H88.4376Z" fill="white" />
+                                    <path d="M90.0312 75.389V75.4687H89.9516L79.6719 89.8125H91.625V73.1578L90.0312 75.389ZM90.0312 88.2187H82.9391L90.0312 77.6203V88.2187Z" fill="white" />
+                                    <path d="M83.6562 77.939L79.3531 81.0468C78.6359 81.525 77.8391 81.8437 77.0422 81.8437H73.2969V89.8125H77.6797L83.6562 81.525V77.939Z" fill="white" />
+                                    <path d="M62.1406 88.2188H67.7188V89.8125H62.1406V88.2188Z" fill="white" />
+                                    <path d="M62.1406 85.0312H67.7188V86.625H62.1406V85.0312Z" fill="white" />
+                                    <path
+                                        d="M75.3689 77.0625H76.4846C77.2814 77.0625 77.9986 76.6641 78.3971 76.0266L80.708 72.8391L77.1221 71.4844L75.9268 72.1219C73.7752 73.3172 71.2252 73.3172 69.0736 72.1219L67.8783 71.4844L64.3721 72.9187L66.6033 76.0266C67.0814 76.6641 67.7986 77.0625 68.5158 77.0625H69.6314C70.7471 77.0625 71.7033 77.7797 71.9424 78.8953L72.5002 80.9672L73.058 78.8953C73.2971 77.7797 74.2533 77.0625 75.3689 77.0625Z"
+                                        fill="white" />
+                                    <path
+                                        d="M65.6469 81.0469L58.1562 75.6281C56.1641 76.9828 54.9688 79.214 54.9688 81.6047V89.8125H60.5469V83.4375H61.9016L61.3438 81.2062L62.8578 80.8078L63.4953 83.3578H69.3125V89.7328H71.7031V81.8437H67.9578C67.0812 81.8437 66.2844 81.6047 65.6469 81.0469Z"
+                                        fill="white" />
+                                    <defs>
+                                        <filter id="filter0_d" x="-0.000488281" y="0" width="144.1" height="142.448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy="4" />
+                                            <feGaussianBlur stdDeviation="10" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <img src="/images/works-item-3.jpg" alt="">
+                        </div>
+                        <div class="works-item__text">
+                            <span>Отправляем замерщика</span>
+                        </div>
+                    </div>
+
+                    <div class="works-item">
+                        <div class="works-item__img">
+                            <div class="works-item__logo">
+                                <svg width="145" height="143" viewBox="0 0 145 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                        <ellipse cx="72.0498" cy="67.2241" rx="52.0502" ry="51.2241" fill="#122042" />
+                                    </g>
+                                    <g clip-path="url(#clip0)">
+                                        <path d="M58.4668 82.5833H62.5668V85.3166C62.5668 85.694 62.2609 86 61.8835 86H59.1501C58.7727 86 58.4668 85.694 58.4668 85.3166V82.5833Z" fill="white" />
+                                        <path d="M84.4336 82.5833H88.5336V85.3166C88.5336 85.694 88.2277 86 87.8503 86H85.1169C84.7395 86 84.4336 85.694 84.4336 85.3166V82.5833Z" fill="white" />
+                                        <path
+                                            d="M74.8673 53.2H72.134C71.7566 53.2 71.4507 53.5059 71.4507 53.8833V55.25C71.4507 55.6274 71.7566 55.9333 72.134 55.9333H74.8673C75.2447 55.9333 75.5507 55.6274 75.5507 55.25V53.8833C75.5507 53.5059 75.2447 53.2 74.8673 53.2Z"
+                                            fill="white" />
+                                        <path
+                                            d="M79.6501 45H67.3501C66.5953 45 65.9834 45.6119 65.9834 46.3667V50.4667C65.9834 51.2215 66.5953 51.8333 67.3501 51.8333H79.6501C80.4049 51.8333 81.0167 51.2215 81.0167 50.4667V46.3667C81.0167 45.6119 80.4049 45 79.6501 45ZM77.4019 48.9018L76.7186 49.5852C76.5231 49.7823 76.2277 49.8415 75.9714 49.7351C75.715 49.6286 75.5484 49.3776 75.5501 49.1H70.0834C69.706 49.1 69.4001 48.7941 69.4001 48.4167C69.4001 48.0393 69.706 47.7333 70.0834 47.7333H75.5501C75.549 47.5517 75.6203 47.3771 75.7482 47.2482C75.8765 47.1188 76.0512 47.046 76.2334 47.046C76.4156 47.046 76.5903 47.1188 76.7186 47.2482L77.4019 47.9315C77.5313 48.0598 77.604 48.2345 77.604 48.4167C77.604 48.5989 77.5313 48.7735 77.4019 48.9018Z"
+                                            fill="white" />
+                                        <path d="M64.897 71.5954L66.8787 70.7412L64.7057 68.2334L62.4233 70.7617L64.3435 71.5885C64.5201 71.6625 64.7186 71.665 64.897 71.5954Z" fill="white" />
+                                        <path
+                                            d="M81.8504 66.7027C81.587 66.8149 81.3031 66.8708 81.0168 66.8667C80.742 66.8661 80.4701 66.8104 80.2173 66.7027L77.9623 65.7392L76.6981 67.222L83.5314 75.3058C83.7767 75.5926 83.7431 76.024 83.4563 76.2693C83.1694 76.5146 82.7381 76.481 82.4928 76.1942L75.9669 68.4383L73.6573 69.436C73.3911 69.5469 73.1051 69.6027 72.8168 69.6C72.542 69.5995 72.2701 69.5437 72.0173 69.436L69.7691 68.4725L68.2794 70.2833L72.6459 75.3127C72.8754 75.5976 72.8398 76.0126 72.5652 76.2543C72.2906 76.496 71.8743 76.4785 71.6209 76.2147L67.8216 71.8413L65.4231 72.8663C65.1672 72.9702 64.8929 73.0214 64.6168 73.0167C64.342 73.0161 64.0701 72.9604 63.8173 72.8527L61.4598 71.8413L57.1001 76.693V77.1167C57.1001 77.4941 57.406 77.8 57.7834 77.8H89.2168C89.5942 77.8 89.9001 77.4941 89.9001 77.1167V72.4905L84.1669 65.7118L81.8504 66.7027Z"
+                                            fill="white" />
+                                        <path d="M73.1246 68.1787L75.0447 67.3518L72.8991 64.8167L70.7261 67.386L72.5779 68.1787C72.7522 68.2547 72.9503 68.2547 73.1246 68.1787Z" fill="white" />
+                                        <path
+                                            d="M89.2168 58.6667H57.7834C57.406 58.6667 57.1001 58.9726 57.1001 59.35V74.6499L63.6738 67.3314C63.9408 67.0506 64.3113 66.8916 64.6988 66.8916C65.0862 66.8916 65.4567 67.0506 65.7238 67.3314L67.3501 69.2242L71.8601 63.9284C72.1261 63.6458 72.497 63.4855 72.8851 63.4855C73.2732 63.4855 73.6441 63.6458 73.9101 63.9284L75.8303 66.1834L80.0601 61.195C80.3261 60.9124 80.697 60.7522 81.0851 60.7522C81.4732 60.7522 81.8441 60.9124 82.1101 61.195L89.9001 70.3722V59.35C89.9001 58.9726 89.5942 58.6667 89.2168 58.6667Z"
+                                            fill="white" />
+                                        <path d="M81.3243 65.4453L83.2444 64.6185L81.0988 62.0833L78.9121 64.6458L80.7708 65.4453C80.947 65.5234 81.148 65.5234 81.3243 65.4453Z" fill="white" />
+                                        <path
+                                            d="M90.5836 55.25H56.4169C54.9073 55.25 53.6836 56.4738 53.6836 57.9833V78.4833C53.6836 79.9929 54.9073 81.2167 56.4169 81.2167H90.5836C92.0932 81.2167 93.3169 79.9929 93.3169 78.4833V57.9833C93.3169 56.4738 92.0932 55.25 90.5836 55.25ZM91.2669 77.1167C91.2669 78.2489 90.3491 79.1667 89.2169 79.1667H57.7836C56.6514 79.1667 55.7336 78.2489 55.7336 77.1167V59.35C55.7336 58.2178 56.6514 57.3 57.7836 57.3H89.2169C90.3491 57.3 91.2669 58.2178 91.2669 59.35V77.1167Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_d" x="-0.000488281" y="0" width="144.1" height="142.448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy="4" />
+                                            <feGaussianBlur stdDeviation="10" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                        </filter>
+                                        <clipPath id="clip0">
+                                            <rect width="41" height="41" fill="white" transform="translate(53 45)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <img src="/images/works-item-4.jpg" alt="">
+                        </div>
+                        <div class="works-item__text">
+                            <span>Выполнение заказа</span>
+                        </div>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item__img">
+                            <div class="works-item__logo">
+                                <svg width="145" height="143" viewBox="0 0 145 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                        <ellipse cx="72.0502" cy="67.2241" rx="52.0502" ry="51.2241" fill="#122042" />
+                                    </g>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M66.1809 67.8792C66.0488 66.6221 65.2538 65.6072 64.0617 65.1794C62.4711 64.6086 61.0256 64.2553 59.6143 64.1198V67.0544C59.6143 67.7669 59.0365 68.3447 58.324 68.3447C57.6114 68.3447 57.0337 67.7669 57.0337 67.0544V64.1162C55.6161 64.2484 54.1646 64.6008 52.5666 65.1744C51.3712 65.6035 50.5645 66.6393 50.4453 67.905C50.3073 69.3702 50.1353 72.1368 50.0145 73.4317C49.9241 74.4011 50.2585 75.327 50.9416 76.0101L53.1615 78.23V85.8156C53.1615 88.4577 56.1992 89.9945 58.3242 88.3939C60.4492 89.9945 63.487 88.4577 63.487 85.8156V78.1935C64.2044 77.5734 65.0138 76.6716 65.7032 75.9822C66.379 75.3063 66.7117 74.4113 66.6379 73.455C66.5065 71.7513 66.3473 69.4625 66.1809 67.8792Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M80.6705 55.5804V46.9785C80.6705 45.8877 79.7829 45 78.6921 45H65.187C64.0962 45 63.2085 45.8877 63.2085 46.9785V55.5804C63.2085 56.6712 64.0962 57.5589 65.187 57.5589H65.4845L64.5628 59.6045C64.386 59.9551 64.371 60.3819 64.5594 60.7604C64.8768 61.3978 65.6508 61.6573 66.2882 61.34L73.8903 57.5589H78.6921C79.7827 57.5589 80.6705 56.6711 80.6705 55.5804Z"
+                                        fill="white" />
+                                    <path
+                                        d="M85.6603 63.0422C87.9745 63.0422 89.8504 61.1662 89.8504 58.852C89.8504 56.5379 87.9745 54.6619 85.6603 54.6619C83.3462 54.6619 81.4702 56.5379 81.4702 58.852C81.4702 61.1662 83.3462 63.0422 85.6603 63.0422Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M93.9904 73.4549C93.8591 71.7513 93.6998 69.4625 93.5335 67.8792C93.4013 66.6221 92.6063 65.6072 91.4142 65.1794C89.8237 64.6086 88.3781 64.2553 86.9668 64.1198V67.0544C86.9668 67.7669 86.3891 68.3447 85.6765 68.3447C84.9639 68.3447 84.3862 67.7669 84.3862 67.0544V64.1162C82.9687 64.2484 81.5171 64.6008 79.9191 65.1744C78.7238 65.6035 77.9171 66.6393 77.7979 67.905C77.6598 69.3702 77.4878 72.1368 77.3671 73.4317C77.2767 74.4011 77.611 75.327 78.2942 76.0101L80.514 78.23V85.8156C80.514 88.4577 83.5517 89.9945 85.6768 88.3939C87.8017 89.9945 90.8395 88.4577 90.8395 85.8156V78.1935C91.557 77.5734 92.3663 76.6716 93.0557 75.9822C93.7315 75.3063 94.0641 74.4113 93.9904 73.4549Z"
+                                        fill="white" />
+                                    <path
+                                        d="M58.3078 63.0422C60.6219 63.0422 62.4979 61.1662 62.4979 58.852C62.4979 56.5379 60.6219 54.6619 58.3078 54.6619C55.9937 54.6619 54.1177 56.5379 54.1177 58.852C54.1177 61.1662 55.9937 63.0422 58.3078 63.0422Z"
+                                        fill="white" />
+                                    <defs>
+                                        <filter id="filter0_d" x="0" y="0" width="144.1" height="142.448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy="4" />
+                                            <feGaussianBlur stdDeviation="10" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <img src="/images/works-item-5.jpg" alt="">
+                        </div>
+                        <div class="works-item__text">
+                            <span>Согласовываем сроки заказа</span>
+                        </div>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item__img">
+                            <div class="works-item__logo">
+                                <svg width="145" height="143" viewBox="0 0 145 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                        <ellipse cx="72.0502" cy="67.2241" rx="52.0502" ry="51.2241" fill="#122042" />
+                                    </g>
+                                    <g clip-path="url(#clip0)">
+                                        <path
+                                            d="M77.6298 74.7209C75.4017 77.5683 74.9924 81.4371 76.5762 84.6873C78.1597 87.9378 81.4585 90 85.0739 90C89.4946 89.9996 93.3249 86.9353 94.2952 82.6222C95.2658 78.3096 93.1171 73.8999 89.1226 72.0061C85.1281 70.1124 80.3547 71.2398 77.6298 74.7209ZM83.5742 75.8573C83.5742 75.5242 83.8444 75.2539 84.1775 75.2539C84.5106 75.2539 84.7809 75.5242 84.7809 75.8573V81.1021L87.3016 82.7173C87.4893 82.8308 87.6001 83.0371 87.5918 83.2562C87.5836 83.475 87.4571 83.6726 87.2615 83.7716C87.0663 83.8706 86.8321 83.8557 86.6507 83.7331L83.8519 81.9395C83.6787 81.8288 83.5742 81.6371 83.5742 81.4316V75.8573Z"
+                                            fill="white" />
+                                        <path
+                                            d="M57.7491 81.1948C58.4008 81.8441 59.2842 82.2078 60.2045 82.2051H60.2218L74.5315 82.1261C74.4538 81.6037 74.4145 81.0757 74.4145 80.5474C74.4137 74.8874 78.8371 70.2141 84.4885 69.9038L84.4135 55.3136L78.7468 55.3407H78.7236C76.1389 55.3403 74.0401 53.2514 74.0276 50.6663L74.0005 45L60.0431 45.0672C58.1156 45.0762 56.5604 46.6463 56.5699 48.5742L56.7144 78.7318C56.7168 79.6581 57.0892 80.545 57.7491 81.1948ZM71.9873 67.2743H69.9411C69.608 67.2743 69.3378 67.0045 69.3378 66.671C69.3378 66.3379 69.608 66.0676 69.9411 66.0676H71.9873C72.3208 66.0676 72.5907 66.3379 72.5907 66.671C72.5907 67.0045 72.3208 67.2743 71.9873 67.2743ZM62.0531 60.9509H79.0414C79.3749 60.9509 79.6448 61.2211 79.6448 61.5542C79.6448 61.8873 79.3749 62.1576 79.0414 62.1576H62.0531C61.7196 62.1576 61.4498 61.8873 61.4498 61.5542C61.4498 61.2211 61.7196 60.9509 62.0531 60.9509ZM62.0531 66.0676H67.3482C67.6817 66.0676 67.9516 66.3379 67.9516 66.671C67.9516 67.0045 67.6817 67.2743 67.3482 67.2743H62.0531C61.7196 67.2743 61.4498 67.0045 61.4498 66.671C61.4498 66.3379 61.7196 66.0676 62.0531 66.0676Z"
+                                            fill="white" />
+                                        <path d="M76.268 53.1237C76.9201 53.773 77.8035 54.1368 78.7238 54.1344H78.7407L83.5735 54.1109L75.2109 45.8453L75.2341 50.6608C75.2357 51.5871 75.6081 52.4736 76.268 53.1237Z" fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_d" x="0" y="0" width="144.1" height="142.448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                            <feOffset dy="4" />
+                                            <feGaussianBlur stdDeviation="10" />
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                        </filter>
+                                        <clipPath id="clip0">
+                                            <rect width="45" height="45" fill="white" transform="translate(53 45)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <img src="/images/works-item-6.jpg" alt="">
+                        </div>
+                        <div class="works-item__text">
+                            <span>Готовим предложение</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="big-banner">
+                        <div class="big-banner__inner">
+                            <div class="big-banner__left">
+                                <div class="big-banner__left-title">
+                                    готовый заказ
+                                </div>
+                                <a href="" class="btn banner-btn">Оставить заявку</a>
+                            </div>
+                            <div class="big-banner__right">
+                                <div class="big-banner__right-img">
+                                    <img src="/images/big-bg.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="reviews">
+            <div class=" works-line__top">
+                <img src="/images/icon/ellipse.svg" alt="">
+            </div>
+            <div class="container">
+                <h4 class="revievs__title title">ОТЗЫВЫ наших клиентов</h4>
+                <div class="parthers-slider__box">
+                    <div class="parthers-slider__arrow">
+                    </div>
+                </div>
+                <div class="reviews__wrapper">
+                    <div class="reviews__item-wrapper">
+                        <div class="reviews__item">
+                            <div class="nevs-item__date">
+                                <span class="nevs-item__date-numder">
+                                    21.08.20
+                                </span>
+                            </div>
+                            <div class="reviews__img">
+                                <img src="/images/revievs-2.jpg" alt="">
+                            </div>
+                            <div class="reviews__name">Зинаида</div>
+                            <div class="reviews__descr">НАродный БАНК ТУВЫ</div>
+                            <div class="content_block">
+                                <p>
+                                    Отличная компания, харизматичные лидеры и талантливые организаторы фирмы, мастера своего
+                                    дела. Ответили
+                                    на все мои вопросы. Хорошая компания, качество прекрасное, работают быстро.
+                                    Заказ сделан вовремя, качественно, без каких либо проблем.
+                                </p>
+
+                            </div>
+                            <a class="content_toggle" href="#">Подробнее</a>
+                            <span class="reviews__icon"><svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M27.994 7.5706C27.994 3.88936 25.01 0.905308 21.3288 0.905308C17.6476 0.905308 14.6635 3.88936 14.6635 7.5706C14.6635 11.2518 17.6476 14.2358 21.3288 14.2358C22.0853 14.2358 22.8095 14.104 23.4875 13.8715C21.9875 22.4742 15.2791 28.022 21.4978 23.4561C28.3934 18.393 28.0014 7.7743 27.9937 7.5797C27.9937 7.57667 27.994 7.57397 27.994 7.5706Z"
+                                        fill="#981414" />
+                                    <path
+                                        d="M13.33 7.5706C13.33 3.88936 10.3459 0.905308 6.66468 0.905308C2.98344 0.905308 -0.000617981 3.88936 -0.000617981 7.5706C-0.000617981 11.2518 2.98349 14.2358 6.66473 14.2358C7.42133 14.2358 8.14546 14.104 8.82341 13.8715C7.32345 22.4742 0.614998 28.022 6.83371 23.4561C13.7293 18.393 13.3374 7.7743 13.3296 7.5797C13.3296 7.57667 13.33 7.57397 13.33 7.5706Z"
+                                        fill="#981414" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="reviews__item-wrapper">
+                        <div class="reviews__item">
+                            <div class="nevs-item__date">
+                                <span class="nevs-item__date-numder">
+                                    21.08.20
+                                </span>
+                            </div>
+                            <div class="reviews__img">
+                                <img src="/images/revievs-1.jpg" alt="">
+                            </div>
+                            <div class="reviews__name">Ибрагим</div>
+                            <div class="reviews__descr">промвест холдинг</div>
+                            <div class="content_block">
+                                <p>
+                                    Отличная компания, харизматичные лидеры и талантливые организаторы фирмы, мастера своего
+                                    дела. Ответили
+                                    на все мои вопросы. Хорошая компания, качество прекрасное, работают быстро.
+                                    Заказ сделан вовремя, качественно, без каких либо проблем.
+                                </p>
+
+                            </div>
+                            <a class="content_toggle" href="#">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="reviews__item-wrapper">
+                        <div class="reviews__item">
+                            <div class="nevs-item__date">
+                                <span class="nevs-item__date-numder">
+                                    21.08.20
+                                </span>
+                            </div>
+                            <div class="reviews__img">
+                                <img src="/images/revievs-3.jpg" alt="">
+                            </div>
+                            <div class="reviews__name">Лариса</div>
+                            <div class="reviews__descr">ОАО АВрора</div>
+                            <div class="content_block">
+                                <p>
+                                    Отличная компания, харизматичные лидеры и талантливые организаторы фирмы, мастера своего
+                                    дела. Ответили
+                                    на все мои вопросы. Хорошая компания, качество прекрасное, работают быстро.
+                                    Заказ сделан вовремя, качественно, без каких либо проблем.
+                                </p>
+
+                            </div>
+                            <a class="content_toggle" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="reviews__item-wrapper">
+                        <div class="reviews__item">
+                            <div class="nevs-item__date">
+                                <span class="nevs-item__date-numder">
+                                    21.08.20
+                                </span>
+                            </div>
+                            <div class="reviews__img">
+                                <img src="/images/revievs-1.jpg" alt="">
+                            </div>
+                            <div class="reviews__name">Ибрагим</div>
+                            <div class="reviews__descr">промвест холдинг</div>
+                            <div class="reviews__text">
+                                Отличная компания, харизматичные лидеры и талантливые организаторы фирмы, мастера своего
+                                дела. Ответили
+                                на все мои вопросы. Хорошая компания, качество прекрасное, работают быстро.
+                                Заказ сделан вовремя, качественно, без каких либо проблем.
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__item-wrapper">
+                        <div class="reviews__item">
+                            <div class="nevs-item__date">
+                                <span class="nevs-item__date-numder">
+                                    21.08.20
+                                </span>
+                            </div>
+                            <div class="reviews__img">
+                                <img src="/images/revievs-1.jpg" alt="">
+                            </div>
+                            <div class="reviews__name">Ибрагим</div>
+                            <div class="reviews__descr">промвест холдинг</div>
+                            <div class="reviews__text">
+                                Отличная компания, харизматичные лидеры и талантливые организаторы фирмы, мастера своего
+                                дела. Ответили
+                                на все мои вопросы. Хорошая компания, качество прекрасное, работают быстро.
+                                Заказ сделан вовремя, качественно, без каких либо проблем.
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container container-img">
+            <div class="footer-fluide__img">
+                <img src="/images/icon/footer-logo.svg" alt="">
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="container">
+                <div class="footer-fluide">
+                    <div class="footer-fluide__left">
+                        <div class="footer-fluide__content">
+
+                            <div class="footer-fluide__items">
+                                <ul class="footer-fluide__col">
+                                    <a href="" class="footer-fluide__link">
+                                        Главная
+                                    </a>
+                                    <a href="" class="footer-fluide__link">
+                                        О компании
+                                    </a>
+                                    <a href="" class="footer-fluide__link">
+                                        Каталог
+                                    </a>
+                                    <a href="" class="footer-fluide__link">
+                                        Новости
+                                    </a>
+                                    <a href="" class="footer-fluide__link">
+                                        Контакты
+                                    </a>
+                                </ul>
+                                <ul class="footer-fluide__col">
+                                    <a href="" class="footer-fluide__link">
+                                        Условия оплаты
+                                    </a>
+                                    <a href="" class="footer-fluide__link">
+                                        Прайс
+                                    </a>
+                                    <a href="" class="footer-fluide__link">
+                                        Условия конфиденциальности
+                                    </a>
+                                </ul>
+                                <ul class=" footer-fluide__col footer-social__list">
+                                    <li class="social-list__item">
+                                        <a href="" class="social-list__link">
+                                            <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M6.0132 3.70947C6.03121 3.69193 6.11544 3.6346 6.44621 3.6346L7.53071 3.63425C7.88352 3.63425 8.17042 3.38651 8.17042 3.08196V1.44578C8.17042 1.14175 7.88393 0.894015 7.53172 0.893494L5.92082 0.891235C4.92658 0.891235 4.08138 1.17433 3.47659 1.71002C2.87452 2.24328 2.55622 2.98771 2.55622 3.8627V4.74516H1.32389C0.971082 4.74516 0.684082 4.9929 0.684082 5.29745V7.05958C0.684082 7.36413 0.971082 7.61187 1.32389 7.61187H2.55622V11.7245C2.55622 12.029 2.84322 12.2768 3.19603 12.2768H5.30828C5.66109 12.2768 5.94809 12.029 5.94809 11.7245V7.61196H7.45443C7.80725 7.61196 8.09415 7.36413 8.09415 7.05976L8.09495 5.29753C8.09495 5.09748 7.96886 4.91238 7.76579 4.81448C7.6717 4.76914 7.56221 4.74516 7.4493 4.74516H5.94809V4.04799C5.94809 3.82075 5.98351 3.73849 6.0132 3.70947V3.70947Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list__item">
+                                        <a href="" class="social-list__link">
+                                            <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M15.2445 8.41515C15.2057 8.34929 14.9658 7.82063 13.8111 6.73403C12.6022 5.59621 12.7646 5.78097 14.2206 3.81356C15.1074 2.61537 15.4619 1.88366 15.351 1.57085C15.2454 1.27267 14.5932 1.35133 14.5932 1.35133L12.4245 1.36414C12.4245 1.36414 12.264 1.34219 12.144 1.41444C12.0276 1.48579 11.9527 1.65042 11.9527 1.65042C11.9527 1.65042 11.609 2.57787 11.1507 3.3663C10.1846 5.03004 9.79758 5.11785 9.63971 5.01449C9.27255 4.77394 9.36456 4.0468 9.36456 3.53093C9.36456 1.91841 9.60543 1.24615 8.89456 1.07236C8.65821 1.01474 8.485 0.976327 7.88149 0.969924C7.10747 0.961693 6.45164 0.972668 6.08087 1.15651C5.83369 1.27907 5.64335 1.55255 5.75972 1.5681C5.90315 1.58731 6.22791 1.65682 6.40022 1.89463C6.62304 2.20104 6.61492 2.89068 6.61492 2.89068C6.61492 2.89068 6.74302 4.78857 6.31632 5.02455C6.02314 5.18644 5.62169 4.85626 4.76018 3.34618C4.31904 2.5733 3.98526 1.71811 3.98526 1.71811C3.98526 1.71811 3.92121 1.55896 3.80664 1.47389C3.66772 1.37054 3.47286 1.33761 3.47286 1.33761L1.41063 1.35042C1.41063 1.35042 1.10121 1.35956 0.987541 1.49585C0.886504 1.61749 0.979422 1.86811 0.979422 1.86811C0.979422 1.86811 2.5942 5.69773 4.42188 7.62855C6.09891 9.39839 8.00237 9.28223 8.00237 9.28223H8.86479C8.86479 9.28223 9.1255 9.25296 9.25811 9.10753C9.3808 8.974 9.37629 8.72338 9.37629 8.72338C9.37629 8.72338 9.35915 7.54989 9.89681 7.37702C10.4263 7.2069 11.1065 8.51118 11.8273 9.01333C12.3722 9.3929 12.7863 9.30967 12.7863 9.30967L14.7141 9.28223C14.7141 9.28223 15.7227 9.21912 15.2445 8.41515Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                        </a>
+                                    </li>
+                                    <li class="social-list__item">
+                                        <a href="" class="social-list__link">
+                                            <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.36992 9.53056C9.22107 9.53056 11.874 5.88406 11.874 2.72209C11.874 2.61852 11.8716 2.51538 11.8665 2.41282C12.3814 2.07502 12.8289 1.65348 13.1821 1.17366C12.7095 1.36432 12.2009 1.49249 11.6675 1.55048C12.212 1.25412 12.6301 0.785504 12.8272 0.226875C12.3176 0.500982 11.7533 0.700126 11.1525 0.807686C10.6712 0.342566 9.98597 0.0516968 9.22728 0.0516968C7.77089 0.0516968 6.58972 1.12331 6.58972 2.44427C6.58972 2.63215 6.61291 2.81474 6.65812 2.98992C4.46614 2.88985 2.52235 1.93771 1.22169 0.489784C0.995283 0.843349 0.864628 1.25419 0.864628 1.69256C0.864628 2.52266 1.33025 3.25568 2.03825 3.68435C1.60556 3.6723 1.19913 3.56453 0.843795 3.38514C0.843402 3.3952 0.843402 3.40497 0.843402 3.41567C0.843402 4.57458 1.75249 5.5422 2.95944 5.76145C2.73775 5.81616 2.5045 5.84562 2.26394 5.84562C2.0943 5.84562 1.92889 5.8305 1.76821 5.80247C2.10397 6.75325 3.07767 7.44511 4.23203 7.46452C3.32931 8.10645 2.19217 8.48883 0.956291 8.48883C0.74372 8.48883 0.533587 8.47778 0.327148 8.45567C1.4944 9.13448 2.88043 9.53063 4.37 9.53063"
+                                                    fill="white" />
+                                            </svg>
+
+                                        </a>
+                                    </li>
+                                    <li class="social-list__item">
+                                        <a href="" class="social-list__link">
+                                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.84974 4.05756C4.55976 4.05756 3.51025 5.12165 3.51025 6.42954C3.51025 7.73744 4.55976 8.80153 5.84974 8.80153C7.13971 8.80153 8.18922 7.73744 8.18922 6.42954C8.18922 5.12165 7.13979 4.05756 5.84974 4.05756Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M10.3334 1.88392C9.60367 1.14409 8.63727 0.736694 7.61209 0.736694H4.08813C3.06295 0.736694 2.09646 1.14409 1.36685 1.88392C0.637164 2.62366 0.235352 3.60358 0.235352 4.643V8.21583C0.235352 9.25534 0.637164 10.2353 1.36685 10.975C2.09646 11.7148 3.06295 12.1222 4.08813 12.1222H7.61209C8.63727 12.1222 9.60376 11.7148 10.3334 10.975C11.063 10.2353 11.4649 9.25534 11.4649 8.21583V4.643C11.4649 3.60358 11.063 2.62366 10.3334 1.88392V1.88392ZM5.85011 9.44262C4.21141 9.44262 2.87823 8.09092 2.87823 6.42946C2.87823 4.768 4.21141 3.4163 5.85011 3.4163C7.4888 3.4163 8.82198 4.768 8.82198 6.42946C8.82198 8.09092 7.4888 9.44262 5.85011 9.44262V9.44262ZM9.1424 3.56318C9.08123 3.62521 8.99633 3.66082 8.9098 3.66082C8.82318 3.66082 8.73845 3.62521 8.67728 3.56318C8.61585 3.50108 8.58081 3.41508 8.58081 3.32726C8.58081 3.23944 8.61585 3.15336 8.67728 3.09134C8.73845 3.02923 8.82309 2.9937 8.9098 2.9937C8.99633 2.9937 9.08123 3.02923 9.1424 3.09134C9.20366 3.15336 9.23879 3.23944 9.23879 3.32726C9.23879 3.41499 9.20366 3.50108 9.1424 3.56318Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-fluide__right">
+                        <div class="footer-fluide__right-content">
+                            <div class="footer-fluide__right-title">наши контакты</div>
+                            <ul class="footer__info-list info-list">
+                                <li class=" info-list__item">
+                                    <a href="#" class="info-list__link">
+                                        <div class="info-list__link-img">
+                                            <img src="/images/icon/map.svg" alt="">
+                                        </div>
+                                        <div class="info-list__link-box">
+                                            <div class="info-list__link-title">Адрес</div>
+                                            <div class="info-list__link-text">Кызыл, Рабочая, 208</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="info-list__item">
+                                    <a href="#" class="info-list__link">
+                                        <div class="info-list__link-img">
+                                            <img src="/images/icon/mail.svg" alt="">
+                                        </div>
+                                        <div class="info-list__link-box">
+                                            <div class="info-list__link-title">Наша почта</div>
+                                            <div class="info-list__link-text">info@gorodok17.ru</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="info-list__item">
+                                    <div class="info-list__link">
+                                        <div class="info-list__link-img">
+                                            <img src="/images/icon/tel.svg" alt="">
+                                        </div>
+                                        <div class="info-list__link-box">
+                                            <div class="info-list__link-title">Наши телефоны</div>
+                                            <a href="" class="footer-tel info-list__link-text">+8 (39422) 2 19 94</a>
+                                            <a href="" class="footer-tel info-list__link-text">+8 (39422) 2 19 94</a>
+                                            <a href="" class="footer-tel info-list__link-text">+8 (39422) 2 19 94</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom__inner">
+                        <div class="footer-bottom__copy">
+                            © 2018-2020 «ГородОК». Все права защищены.
+                        </div>
+                        <a href="" class="footer-bottom__logo">
+
+                            <span class="footer-bottom__logo-text">
+                                Сайт разработан
+                            </span>
+                            <span class="footer-bottom__logo-img">
+                                <img src="/images/icon/footer-works.svg" alt="">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
